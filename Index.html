@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<link rel="icon" href="X.png" type="image/gif" sizes="16x15">
+		<title> Compound X Character Editor </title>
+		<script  src="myJava.js"></script>
+		<link rel="stylesheet" type="text/css" href="myCSS.css">
+	</head> 
+	
+	<body>
+		<h1> Character creation! </h1>
+		<h2> This is where you will go to create your very own Compound X character (or edit an already exisiting one)! </h2>
+		
+			<form action="/action_page.php">
+				<fieldset>
+				<legend> Please input your Character's name: </legend>
+			First name:<br>
+			<input type="text" name="firstname" value="'Sir Patrick'"> <br>
+			Last name:<br>
+			<input type="text" name="lastname" value="'Stewart'"> <br><br>
+				</fieldset>
+
+				<fieldset>
+				<legend> Please input your Characters' stats: </legend>
+			<p> No skill may be higher than 10 however. Skills numbers can be mixed any way you want, as long as the total adds up to 40. If you are a human, then this number is 42. </p> <br>
+			<p> Ex: If Strength is 5, and so are all the other skills, then added up they make 35. That means you can add 5 more points to any of the skills, or 7 more points if you're human. </p> <br>
+			
+			<div class="pair"> 
+			Strength: 
+			<input type="text" name="strength" id="strength" value="5"> 
+			</div>
+			<div class="modPair">
+			Strength Mod: 
+			<input type="text" name="strengthMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Perception: 
+			<input type="text" name="perception" value="5">
+			</div>
+			<div class="modPair">
+			Perception Mod:
+			<input type="text" name="perceptionMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Fortitude:
+			<input type="text" name="fortitude" value="5">
+			</div>
+			<div class="modPair">
+			Fortitude Mod:
+			<input type="text" name="fortitudeMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Charisma: 
+			<input type="text" name="charisma" value="5">
+			</div>
+			<div class="modPair">
+			Charisma Mod:
+			<input type="text" name="charismaMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Intelligence:
+			<input type="text" name="intelligence" value="5"> 
+			</div>
+			<div class="modPair">
+			Intelligence Mod:
+			<input type="text" name="intelligenceMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Dexterity:
+			<input type="text" name="dexterity" value="5">
+			</div>
+			<div class="modPair">
+			Dexterity Mod:
+			<input type="text" name="dexterityMod" value="0">
+			</div>
+			
+			<div class="pair">
+			Luck:
+			<input type="text" name="luck" value="5">
+			</div>
+			<div class="modPair">
+			Luck Mod:
+			<input type="text" name="luckMod" value="0">
+			</div>
+			
+			<div class="submitPair">
+			<input type="submit" value="Submit">
+			</div>
+				</fieldset>
+			</form>
+	</body>
+
+</html>
