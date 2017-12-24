@@ -2,7 +2,7 @@
 	window.onload=function(){
 		document.getElementById("str").onchange = strChange;
 		document.getElementById("perc").onchange = percChange;
-		document.getElementById("fort").onchange = fortChnge;
+		document.getElementById("fort").onchange = fortChange;
 		document.getElementById("char").onchange = charChange;
 		document.getElementById("intel").onchange = intelChange;
 		document.getElementById("dex").onchange = dexChange;
