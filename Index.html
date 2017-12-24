@@ -13,83 +13,75 @@
 			<form action="/action_page.php">
 				<fieldset>
 				<legend> Please input your Character's name: </legend>
-			First name:<br>
-			<input type="text" name="firstname" value="'Sir Patrick'"> <br>
-			Last name:<br>
+			<label for="fName">First name: </label>
+			<input type="text" name="firstname" value="'Sir Patrick'"> 
+			
+			<label for="lName">Last name: </label>
 			<input type="text" name="lastname" value="'Stewart'"> <br><br>
 				</fieldset>
-
+			
+			<!-- 	<fieldset>
+				<legend> Please input your Characters' race. </legend>
+			<p> Character races all have different attributes, and things about them. Some get different stat modifications to them as well. </p><br>
+			<div class="">
+			<select id="raceSelect">
+			</div>
+				</fieldset> -->
+				
 				<fieldset>
 				<legend> Please input your Characters' stats: </legend>
 			<p> No skill may be higher than 10 however. Skills numbers can be mixed any way you want, as long as the total adds up to 40. If you are a human, then this number is 42. </p> <br>
 			<p> Ex: If Strength is 5, and so are all the other skills, then added up they make 35. That means you can add 5 more points to any of the skills, or 7 more points if you're human. </p> <br>
 			
-			<div class="pair"> 
-			Strength: 
-			<input type="text" name="strength" id="strength" value="5"> 
-			</div>
-			<div class="modPair">
-			Strength Mod: 
-			<input type="text" name="strengthMod" value="0">
-			</div>
-			
 			<div class="pair">
-			Perception: 
-			<input type="text" name="perception" value="5">
-			</div>
-			<div class="modPair">
-			Perception Mod:
-			<input type="text" name="perceptionMod" value="0">
+			<label for="str">Strength: </label>
+			<input type="text" name="strength" id="str" value="5"> 
+			
+			<label for="perc">Perception: </label>
+			<input type="text" name="perception" id="perc" value="5">
+			
+			<label for="fort">Fortitude: </label>
+			<input type="text" name="fortitude" id="fort" value="5">
+			
+			<label for="char">Charisma: </label>
+			<input type="text" name="charisma" id="char" value="5">
+			
+			<label for="intel">Intelligence: </label>
+			<input type="text" name="intelligence" id="intel" value="5">
+			
+			<label for="dex">Dexterity: </label>
+			<input type="text" name="dexterity" id="dex" value="5">
+			
+			<label for="luck">Luck: </label>
+			<input type="text" name="luck" id="luck" value="5">
 			</div>
 			
-			<div class="pair">
-			Fortitude:
-			<input type="text" name="fortitude" value="5">
-			</div>
 			<div class="modPair">
-			Fortitude Mod:
-			<input type="text" name="fortitudeMod" value="0">
+			<label for="strMod">Strength Mod: </label>
+			<input type="text" name="strengthMod" id="strMod" value="0">
+			
+			<label for="percMod">Perception Mod: </label>
+			<input type="text" name="perceptionMod" id="percMod" value="0">
+			
+			<label for="fortMod">Fortitude Mod: </label>
+			<input type="text" name="fortitudeMod" id="fortMod" value="0">
+			
+			<label for="charMod">Charisma Mod: </label>
+			<input type="text" name="charismaMod" id="charMod" value="0">
+			
+			<label for="intelMod">Intelligence Mod: </label>
+			<input type="text" name="intelligenceMod" id="intelMod" value="0">
+			
+			<label for="dexMod">Dexterity Mod: </label>
+			<input type="text" name="dexterityMod" id="dexMod" value="0">
+			
+			<label for="luckMod">Luck Mod: </label>
+			<input type="text" name="luckMod" id="luckMod" value="0">
 			</div>
 			
-			<div class="pair">
-			Charisma: 
-			<input type="text" name="charisma" value="5">
-			</div>
-			<div class="modPair">
-			Charisma Mod:
-			<input type="text" name="charismaMod" value="0">
-			</div>
-			
-			<div class="pair">
-			Intelligence:
-			<input type="text" name="intelligence" value="5"> 
-			</div>
-			<div class="modPair">
-			Intelligence Mod:
-			<input type="text" name="intelligenceMod" value="0">
-			</div>
-			
-			<div class="pair">
-			Dexterity:
-			<input type="text" name="dexterity" value="5">
-			</div>
-			<div class="modPair">
-			Dexterity Mod:
-			<input type="text" name="dexterityMod" value="0">
-			</div>
-			
-			<div class="pair">
-			Luck:
-			<input type="text" name="luck" value="5">
-			</div>
-			<div class="modPair">
-			Luck Mod:
-			<input type="text" name="luckMod" value="0">
-			</div>
-			
-			<div class="submitPair">
+			<!-- <div class="submitPair">
 			<input type="submit" value="Submit">
-			</div>
+			</div> -->
 				</fieldset>
 			</form>
 	</body>
